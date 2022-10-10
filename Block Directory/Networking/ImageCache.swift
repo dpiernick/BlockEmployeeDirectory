@@ -12,7 +12,7 @@ class ImageCache {
     
     static let shared = NSCache<NSString, UIImage>()
     
-    static func fetchImageIfNecessary(url: String, completion: @escaping (UIImage?) -> Void) {
+    static func fetchImage(url: String, completion: @escaping (UIImage?) -> Void) {
         if let cachedImage = ImageCache.shared.object(forKey: NSString(string: url)) {
             completion(cachedImage)
         } else {
