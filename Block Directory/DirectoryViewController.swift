@@ -80,7 +80,7 @@ class DirectoryViewController: UIViewController, FilterBarDelegate {
             stackView.addArrangedSubview(v)
         }
         
-        filterBar.updateLabelAnimated(model.employees.count, true)
+        filterBar.updateLabelAnimated(visibleEmployees.count, true)
     }
     
     func updateUIForError() {
