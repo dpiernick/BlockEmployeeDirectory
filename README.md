@@ -36,7 +36,7 @@ I tend to use a MVC architecture pattern which in larger projects can sometimes 
 
 ## Did you copy any code or dependencies? Please make sure to attribute them here!
 I Googled/StackOverflow'd the occasional syntax question or reminder on how to do a process (ex: I haven't built a brand new network call from scratch in a while).
-However, I generally interpret what I find on those sites and restructure it / reword it / rebuild it to fit my needs. There was nothing copy pasted directly from Google/StackOverflow in this project.
+However, I generally interpret what I find on those sites and restructure it / reword it / rebuild it to fit my needs. There was nothing copy+pasted directly from Google/StackOverflow in this project.
 All Utilities I wrote myself while either working on previous projects or as they came up in this project.
 
 ## Is there any other information you’d like us to know?
