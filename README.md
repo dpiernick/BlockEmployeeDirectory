@@ -6,11 +6,11 @@ This is intended to run on a iOS 15+ iPhone. It does run on an iPad but the UI w
 1. Navigate to https://github.com/dpiernick/BlockEmployeeDirectory
 2. Click "Code"
 3. Click "Open in Xcode"
- - OR -
+ - OR
 1. Open Xcode
 2. Select "Clone an existing project" from the launch screen
 3. Search for https://github.com/dpiernick/BlockEmployeeDirectory.git and click "Clone"
- - THEN -
+ - THEN
 4. Choose where to save the project
 5. Click "Run"!
 
