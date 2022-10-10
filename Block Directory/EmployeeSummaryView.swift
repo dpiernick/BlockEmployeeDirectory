@@ -28,6 +28,7 @@ class EmployeeSummaryView: UIView {
                 
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.contentMode = .scaleAspectFit
+        imageView.tintColor = .gray
         imageView.backgroundColor = .customTextColor
         imageView.layer.cornerRadius = 40
         imageView.clipsToBounds = true
