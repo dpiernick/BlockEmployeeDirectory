@@ -1,5 +1,5 @@
 ## Build tools & versions used
-Xcode 14.0 - iOS 15+
+Xcode 14.0 - iOS 15+.
 This is intended to run on a iOS 15+ iPhone. It does run on an iPad but the UI was not designed specifically for it.
 
 ## Steps to run the app
