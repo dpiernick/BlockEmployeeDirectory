@@ -15,8 +15,8 @@ I wanted both the UI, and the code behind it, to be clean and intuitive.
 
 ## What was the reason for your focus? What problems were you trying to solve?
 I think a key aspect of developing features in a timely, predictable manner is the developer experience when interacting with legacy code.
-You can create a genius algorithm to handle a task, but if it's not readable and changeable, we're doing a disservice to developers that have to make modifications in the future.
-An example of this would be my Utilities folder, as well as my ImageCache class, which in its "fetchImage" function, will automatically check the cache before fetching the image.
+You can create a genius algorithm to handle a task, but if it's not readable and changeable, or if the API is not simple enough to use, we're doing a disservice to developers that have to make modifications in the future.
+An example of this would be my Utilities folder, as well as my ImageCache class, which in its primary "fetchImage" function, will automatically check the cache before fetching the image.
 
 ## How long did you spend on this project?
 7-8 hours
