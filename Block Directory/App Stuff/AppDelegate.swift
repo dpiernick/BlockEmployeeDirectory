@@ -10,10 +10,16 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let window = UIWindow()
+        let vc = DirectoryViewController()
+        vc.title = "BLOCK Team Members"
+        let navVC = UINavigationController(rootViewController: vc)
+        window.rootViewController = navVC
+        self.window = window
+        window.makeKeyAndVisible()
         return true
     }
 
