@@ -20,6 +20,8 @@ class ImageCache {
                 if let data = data, let fetchedImage = UIImage(data: data) {
                     completion(fetchedImage)
                     ImageCache.shared.setObject(fetchedImage, forKey: NSString(string: url))
+                } else {
+                    completion(nil)
                 }
             }
         }
