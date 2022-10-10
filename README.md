@@ -41,3 +41,4 @@ All Utilities I wrote myself while either working on previous projects or as the
 
 ## Is there any other information you’d like us to know?
 This was a really fun excercise and I appreciate the opportunity to work on this as opposed to strictly having a paired programming interview.
+I think this format is a much more realistic way to see how someone works, and being able to take your time to make production ready code in your own style is something that is often missed in "Paired Programming Only" interviews.
