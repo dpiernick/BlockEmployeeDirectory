@@ -64,7 +64,7 @@ class EmployeeSummaryView: UIView {
     func fetchImage() {
         guard let urlString = employee.photo_url_small else { return }
         
-        ImageCache.fetchImageIfNecessary(url: urlString) { image in
+        ImageCache.fetchImage(url: urlString) { image in
             self.imageView.image = image
         }
     }
