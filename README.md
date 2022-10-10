@@ -6,13 +6,13 @@ This is intended to run on a iOS 15+ iPhone. It does run on an iPad but the UI w
 1. Navigate to https://github.com/dpiernick/BlockEmployeeDirectory
 2. Click "Code"
 3. Click "Open in Xcode"
- - OR
-1. Open Xcode
-2. Select "Clone an existing project" from the launch screen
-3. Search for https://github.com/dpiernick/BlockEmployeeDirectory.git and click "Clone"
- - THEN
 4. Choose where to save the project
 5. Click "Run"!
+ - OR
+1. Download "BlockEmployeeDirectoryZip"
+2. Unzip the file
+3. Open the unzipped file in Xcode
+4. Click "Run"!
 
 ## What areas of the app did you focus on?
 I mainly focused on building the UI and features in a way that showcases my passion for creating readable and reusable code.
@@ -40,5 +40,7 @@ However, I generally interpret what I find on those sites and restructure it / r
 All Utilities I wrote myself while either working on previous projects or as they came up in this project.
 
 ## Is there any other information you’d like us to know?
+This app supports Dark Mode! 
+
 This was a really fun excercise and I appreciate the opportunity to work on this as opposed to strictly having a paired programming interview.
 I think this format is a much more realistic way to see how someone works, and being able to take your time to make production ready code in your own style is something that is often missed in "Paired Programming Only" interviews.
