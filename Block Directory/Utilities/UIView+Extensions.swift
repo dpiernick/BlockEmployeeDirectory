@@ -10,7 +10,7 @@ import UIKit
 
 //initializers
 extension UIView {
-    convenience init(_ translatesIntoConstraints: Bool) {
+    convenience init(_ translatesIntoConstraints: Bool = true) {
         self.init()
         self.translatesAutoresizingMaskIntoConstraints = translatesIntoConstraints
     }
