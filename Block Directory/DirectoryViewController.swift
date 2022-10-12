@@ -43,8 +43,6 @@ class DirectoryViewController: UIViewController, FilterBarDelegate {
         
         refreshControl.addTarget(self, action: #selector(refresh), for: .valueChanged)
         scrollView.refreshControl = refreshControl
-
-        view.bringSubviewToFront(filterBar)
     }
 
     func fetchTeamMembers() {
