@@ -12,7 +12,7 @@ import UIKit
 extension UIView {
     convenience init(_ translatesIntoConstraints: Bool) {
         self.init()
-        self.translatesAutoresizingMaskIntoConstraints = false
+        self.translatesAutoresizingMaskIntoConstraints = translatesIntoConstraints
     }
 }
 
